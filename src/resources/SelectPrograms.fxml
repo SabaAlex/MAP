@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="364.0" minWidth="712.0" prefHeight="385.0" prefWidth="763.0" spacing="5" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.SelectProgramsController">
+    <padding>
+        <Insets topRightBottomLeft="10" />
+    </padding>
+    <children>
+              <Label text="Choose one program to be executed" />
+              <ListView id="programList" fx:id="programList" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="303.0" prefWidth="720.0" VBox.vgrow="ALWAYS" />
+              <Button id="executeButton" fx:id="executeButton" mnemonicParsing="false" text="Execute" />
+    </children>
+</VBox>

@@ -1,0 +1,322 @@
+ProgramState:
+Id:1
+ExeStack:
+(int a;(int b;(a = 2 + 3 * 5;(b = a + 1;print(b)))))
+
+SymbolsTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(int b;(a = 2 + 3 * 5;(b = a + 1;print(b))))
+int a
+
+SymbolsTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(int b;(a = 2 + 3 * 5;(b = a + 1;print(b))))
+int a
+
+SymbolsTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(int b;(a = 2 + 3 * 5;(b = a + 1;print(b))))
+
+SymbolsTable:
+(a = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(int b;(a = 2 + 3 * 5;(b = a + 1;print(b))))
+
+SymbolsTable:
+(a = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(a = 2 + 3 * 5;(b = a + 1;print(b)))
+int b
+
+SymbolsTable:
+(a = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(a = 2 + 3 * 5;(b = a + 1;print(b)))
+int b
+
+SymbolsTable:
+(a = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(a = 2 + 3 * 5;(b = a + 1;print(b)))
+
+SymbolsTable:
+(a = 0)
+(b = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(a = 2 + 3 * 5;(b = a + 1;print(b)))
+
+SymbolsTable:
+(a = 0)
+(b = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(b = a + 1;print(b))
+a = 2 + 3 * 5
+
+SymbolsTable:
+(a = 0)
+(b = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(b = a + 1;print(b))
+a = 2 + 3 * 5
+
+SymbolsTable:
+(a = 0)
+(b = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(b = a + 1;print(b))
+
+SymbolsTable:
+(a = 17)
+(b = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(b = a + 1;print(b))
+
+SymbolsTable:
+(a = 17)
+(b = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+print(b)
+b = a + 1
+
+SymbolsTable:
+(a = 17)
+(b = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+print(b)
+b = a + 1
+
+SymbolsTable:
+(a = 17)
+(b = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+print(b)
+
+SymbolsTable:
+(a = 17)
+(b = 18)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+print(b)
+
+SymbolsTable:
+(a = 17)
+(b = 18)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+
+SymbolsTable:
+(a = 17)
+(b = 18)
+
+Heap:
+
+Out:
+18
+
+FileTable:
+
+
+
+

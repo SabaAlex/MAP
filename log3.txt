@@ -1,0 +1,360 @@
+ProgramState:
+Id:1
+ExeStack:
+(bool a;(int v;(a = true;((IF(a) THEN(v = 2)ELSE(v = 3));print(v)))))
+
+SymbolsTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(int v;(a = true;((IF(a) THEN(v = 2)ELSE(v = 3));print(v))))
+bool a
+
+SymbolsTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(int v;(a = true;((IF(a) THEN(v = 2)ELSE(v = 3));print(v))))
+bool a
+
+SymbolsTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(int v;(a = true;((IF(a) THEN(v = 2)ELSE(v = 3));print(v))))
+
+SymbolsTable:
+(a = false)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(int v;(a = true;((IF(a) THEN(v = 2)ELSE(v = 3));print(v))))
+
+SymbolsTable:
+(a = false)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(a = true;((IF(a) THEN(v = 2)ELSE(v = 3));print(v)))
+int v
+
+SymbolsTable:
+(a = false)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(a = true;((IF(a) THEN(v = 2)ELSE(v = 3));print(v)))
+int v
+
+SymbolsTable:
+(a = false)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(a = true;((IF(a) THEN(v = 2)ELSE(v = 3));print(v)))
+
+SymbolsTable:
+(a = false)
+(v = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(a = true;((IF(a) THEN(v = 2)ELSE(v = 3));print(v)))
+
+SymbolsTable:
+(a = false)
+(v = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+((IF(a) THEN(v = 2)ELSE(v = 3));print(v))
+a = true
+
+SymbolsTable:
+(a = false)
+(v = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+((IF(a) THEN(v = 2)ELSE(v = 3));print(v))
+a = true
+
+SymbolsTable:
+(a = false)
+(v = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+((IF(a) THEN(v = 2)ELSE(v = 3));print(v))
+
+SymbolsTable:
+(a = true)
+(v = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+((IF(a) THEN(v = 2)ELSE(v = 3));print(v))
+
+SymbolsTable:
+(a = true)
+(v = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+print(v)
+(IF(a) THEN(v = 2)ELSE(v = 3))
+
+SymbolsTable:
+(a = true)
+(v = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+print(v)
+(IF(a) THEN(v = 2)ELSE(v = 3))
+
+SymbolsTable:
+(a = true)
+(v = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+print(v)
+v = 2
+
+SymbolsTable:
+(a = true)
+(v = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+print(v)
+v = 2
+
+SymbolsTable:
+(a = true)
+(v = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+print(v)
+
+SymbolsTable:
+(a = true)
+(v = 2)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+print(v)
+
+SymbolsTable:
+(a = true)
+(v = 2)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+
+SymbolsTable:
+(a = true)
+(v = 2)
+
+Heap:
+
+Out:
+2
+
+FileTable:
+
+
+
+

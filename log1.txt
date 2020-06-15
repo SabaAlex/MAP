@@ -1,0 +1,171 @@
+ProgramState:
+Id:1
+ExeStack:
+(int v;(v = 2;print(v)))
+
+SymbolsTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(v = 2;print(v))
+int v
+
+SymbolsTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(v = 2;print(v))
+int v
+
+SymbolsTable:
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(v = 2;print(v))
+
+SymbolsTable:
+(v = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+(v = 2;print(v))
+
+SymbolsTable:
+(v = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+print(v)
+v = 2
+
+SymbolsTable:
+(v = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+print(v)
+v = 2
+
+SymbolsTable:
+(v = 0)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+print(v)
+
+SymbolsTable:
+(v = 2)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+print(v)
+
+SymbolsTable:
+(v = 2)
+
+Heap:
+
+Out:
+
+FileTable:
+
+
+
+
+ProgramState:
+Id:1
+ExeStack:
+
+SymbolsTable:
+(v = 2)
+
+Heap:
+
+Out:
+2
+
+FileTable:
+
+
+
+
